@@ -13,12 +13,25 @@
         />
         <title>Zukovskis</title>
 
-      <script type="module" crossorigin src="/assets/index-9S0ULsQN.js"></script>
-      <link rel="stylesheet" crossorigin href="/assets/index-ASyxjtSk.css">
+        <script
+            type="module"
+            crossorigin
+            src="./assets/index-qfdnCi-1.js"
+        ></script>
+        <link
+            rel="stylesheet"
+            crossorigin
+            href="./assets/index-W9nOHJnE.css"
+        />
     </head>
     <body>
         <header>
-            <div class="red-square"></div>
+            <div class="red-square">
+                <img
+                    src="./redSquare.png"
+                    alt=""
+                />
+            </div>
             <nav>
                 <a
                     class="navlink"
@@ -45,8 +58,48 @@
                     >CONTACTS</a
                 >
             </nav>
+            <div
+                class="hidden"
+                id="art-dir-subNav"
+            >
+                <a
+                    class="navlink"
+                    href="/comercials"
+                    id="/comercials"
+                    >COMERCIALS</a
+                ><a
+                    class="navlink"
+                    href="/movies"
+                    id="/movies"
+                    >MOVIES</a
+                >
+            </div>
         </header>
-        <main></main>
+        <main>
+            <div class="video-container">
+                <video
+                    preload="metadata"
+                    poster="./videos/Daim_poster.png"
+                >
+                    <source
+                        src="./videos/Daim - Hard Caramel. Soft Chocolate..mp4"
+                        type="video/mp4"
+                    />
+                </video>
+                <video poster="./videos/CMC_poster.png">
+                    <source
+                        src="./videos/CMC web.mov"
+                        type="video/mp4"
+                    />
+                </video>
+                <video poster="./videos/Daim_poster.png">
+                    <source
+                        src="./videos/Daim - Hard Caramel. Soft Chocolate..mp4"
+                        type="video/mp4"
+                    />
+                </video>
+            </div>
+        </main>
     </body>
 
     <template id="artdir-page-template">
