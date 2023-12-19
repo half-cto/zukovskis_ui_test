@@ -11,17 +11,25 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
+
+        <!-- CSS for videoJs    -->
+        <link
+            href="https://vjs.zencdn.net/8.6.1/video-js.css"
+            rel="stylesheet"
+        />
         <title>Zukovskis</title>
 
+        <!-- VideoJs source -->
+        <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
         <script
             type="module"
             crossorigin
-            src="./assets/index-qfdnCi-1.js"
+            src="./assets/index-rIHg5oLH.js"
         ></script>
         <link
             rel="stylesheet"
             crossorigin
-            href="./assets/index-W9nOHJnE.css"
+            href="./assets/index-pB13Pz6L.css"
         />
     </head>
     <body>
@@ -78,8 +86,11 @@
         <main>
             <div class="video-container">
                 <video
+                    id="my-video"
+                    class="video-js"
                     controls
-                    preload="metadata"
+                    preload="auto"
+                    data-setup="{}"
                     poster="./videos/Daim_poster.png"
                 >
                     <source
@@ -88,8 +99,12 @@
                     />
                 </video>
                 <video
+                    id="my-video"
+                    class="video-js"
                     controls
-                    poster="./videos/CMC web.mov"
+                    preload="auto"
+                    data-setup="{}"
+                    poster="./videos/CMC_poster.png"
                 >
                     <source
                         src="./videos/CMC web.mov"
@@ -97,7 +112,12 @@
                     />
                 </video>
                 <video
+                    id="my-video"
+                    class="video-js"
                     controls
+                    preload="auto"
+                    data-setup="{}"
+                    preload="metadata"
                     poster="./videos/Daim_poster.png"
                 >
                     <source
