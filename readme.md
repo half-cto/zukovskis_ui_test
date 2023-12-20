@@ -1,3 +1,3 @@
-# Nav Test Repo
+# Zukovskis Design Test Repo
 
-Repository for testing concepts for page navigation
+Repository for testing concepts and pushing pixels for zukovskis website
