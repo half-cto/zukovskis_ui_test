@@ -13,23 +13,23 @@
         />
 
         <!-- CSS for videoJs    -->
-        <link
+        <!-- <link
             href="https://vjs.zencdn.net/8.6.1/video-js.css"
             rel="stylesheet"
-        />
+        /> -->
         <title>Zukovskis</title>
 
         <!-- VideoJs source -->
-        <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+        <!-- <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script> -->
         <script
             type="module"
             crossorigin
-            src="./assets/index-rIHg5oLH.js"
+            src="./assets/index-wgi76LM2.js"
         ></script>
         <link
             rel="stylesheet"
             crossorigin
-            href="./assets/index-pB13Pz6L.css"
+            href="./assets/index-fC9_nAdz.css"
         />
     </head>
     <body>
@@ -84,26 +84,21 @@
             </div>
         </header>
         <main>
-            <div class="video-container">
+            <div
+                class="video-container"
+                data-setup='{"controls": false,}'
+            >
                 <video
-                    id="my-video"
-                    class="video-js"
-                    controls
-                    preload="auto"
-                    data-setup="{}"
+                    id="custom-video"
+                    class="custom-video"
                     poster="./videos/Daim_poster.png"
                 >
                     <source
                         src="./videos/Daim - Hard Caramel. Soft Chocolate..mp4"
-                        type="video/mp4"
                     />
                 </video>
                 <video
-                    id="my-video"
-                    class="video-js"
-                    controls
-                    preload="auto"
-                    data-setup="{}"
+                    class="custom-video"
                     poster="./videos/CMC_poster.png"
                 >
                     <source
@@ -112,12 +107,7 @@
                     />
                 </video>
                 <video
-                    id="my-video"
-                    class="video-js"
-                    controls
-                    preload="auto"
-                    data-setup="{}"
-                    preload="metadata"
+                    class="custom-video"
                     poster="./videos/Daim_poster.png"
                 >
                     <source
